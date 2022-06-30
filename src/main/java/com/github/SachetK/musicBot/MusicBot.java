@@ -11,6 +11,7 @@ import discord4j.core.event.domain.message.MessageCreateEvent;
 import discord4j.core.object.VoiceState;
 import discord4j.core.object.entity.Member;
 import discord4j.voice.AudioProvider;
+import io.github.cdimascio.dotenv.Dotenv;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
@@ -58,7 +59,8 @@ public class MusicBot {
     }
 
     public static void main(final String[] args) {
-        final GatewayDiscordClient client = DiscordClientBuilder.create(args[0]).build()
+        Dotenv dotenv = Dotenv.configure().load();
+        final GatewayDiscordClient client = DiscordClientBuilder.create(dotenv.get("DISCORD_BOT_ID")).build()
                 .login()
                 .block();
         assert client != null;

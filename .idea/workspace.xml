@@ -8,13 +8,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0009056a-bdba-41a1-9b43-d52203f7b106" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/SachetK/musicBot/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/SachetK/musicBot/LavaPlayerAudioProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/SachetK/musicBot/MusicBot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/SachetK/musicBot/TrackScheduler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/SachetK/musicBot/MusicBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/SachetK/musicBot/MusicBot.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +47,11 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sache\MusicBoiBot\src\main\java\com\github\SachetK\musicBot" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="MusicBot" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.github.SachetK.musicBot.MusicBot" />
